@@ -1,0 +1,54 @@
+{
+    "name": "InputSystem",
+    "maps": [
+        {
+            "name": "Customer",
+            "id": "d06bbb99-5009-4b76-8403-01c522743af8",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "006e6e97-98ee-4a52-b2e2-78cfaf26182d",
+                    "expectedControlType": "Stick",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "d05f72a0-0055-4bbe-8913-eeb70ba105d1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "67712fe0-2a2e-45bf-85eb-5357ad151bcc",
+                    "path": "<XInputController>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fa6bc18c-d5ee-4b01-87b1-4f24b070c85e",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
